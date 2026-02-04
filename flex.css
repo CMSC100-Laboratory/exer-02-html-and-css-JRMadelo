@@ -3,13 +3,31 @@
   margin-left: auto;
   margin-right: auto;
 }
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.logo2 {
+  display: block;
+  display: flex;
+  justify-content: start;
+}
+
+.footer {
+  display: flex;
+  justify-content: left;
+  flex-direction: row;
+}
 
 .projects {
   display: flex;
   justify-content: space-between;
 }
+
 .h1 {
   font-family: sans-serif;
+  color: #155030;
 }
 .projects div {
   background-color: #fadcd9;
@@ -22,10 +40,29 @@
   font-weight: 200;
   font-family: sans-serif;
 }
+
+.contents {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contents div {
+  background-color: #fadcd9;
+  margin: 10px;
+  padding: 10px;
+  font-size: 20px;
+  flex-wrap: wrap;
+  border-radius: 10px;
+  color: #155030;
+  font-weight: 200;
+  font-family: sans-serif;
+  flex: 1;
+}
 .title {
   display: flex;
   justify-content: center;
   font-family: sans-serif;
+  color: #155030;
 }
 .information {
   display: flex;
@@ -35,4 +72,5 @@
 .inline-header {
   display: inline-block;
   padding-inline: 200px;
+  color: #155030;
 }
