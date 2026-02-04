@@ -6,13 +6,33 @@
 
 .projects {
   display: flex;
-  background-color: black;
+  justify-content: space-between;
 }
-
+.h1 {
+  font-family: sans-serif;
+}
 .projects div {
-  background-color: antiquewhite;
+  background-color: #fadcd9;
   margin: 10px;
   padding: 10px;
-  font-size: 12px;
-  flex-grow: 5;
+  font-size: 20px;
+  flex-wrap: wrap;
+  border-radius: 10px;
+  color: #155030;
+  font-weight: 200;
+  font-family: sans-serif;
+}
+.title {
+  display: flex;
+  justify-content: center;
+  font-family: sans-serif;
+}
+.information {
+  display: flex;
+  justify-content: center;
+}
+
+.inline-header {
+  display: inline-block;
+  padding-inline: 200px;
 }
